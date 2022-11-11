@@ -4,7 +4,6 @@ import math
 class demo:
     def search(self, nums: List[int], target: int):
         low, high = 0, len(nums) - 1
-
         while(low <= high):
              mid = math.floor((low+high)//2)
              print("mid index", mid)
