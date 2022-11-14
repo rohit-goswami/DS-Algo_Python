@@ -30,7 +30,7 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 **Solutions:**
 
-### Approach 1: Brute force : Time complexity O($n^2$) 
+### Approach 1: Brute force : Time complexity O(n**2) 
 
 ```python=
 class Solution:
@@ -46,7 +46,7 @@ class Solution:
         
 ```
 
-### Approach 2: Divide and Conquer : Time complexity O($n$) 
+### Approach 2: Divide and Conquer : Time complexity O(n) 
 
 ```python=
 class Solution:
